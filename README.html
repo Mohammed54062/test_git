@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobaily</title>
+    
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    height:50px;
+}
+body{
+    background-color: #B4B3B3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link_home, .link_cart{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.link_home{
+    color: white;
+    font-size: 30px;
+    margin-left: 450px;
+}
+.link_cart{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.header{
+    background-color: #333;
+    color: white;
+    height: 100px;
+    text-align: right;
+    font-size: 3em;
+    line-height: 100px;
+}
+.content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.iphone, .iphone2{
+    margin-top: 10px;
+    width: 50%;
+    border: black solid 5px;
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 3em;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.submit{
+    font-size: 20px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    border:black solid 3px;
+}
+.submit:active{
+    background-color: tomato;
+}
+</style>
+<body>
+    <header class="header"><img class="logo" src="smartphones.png" alt=""><a class="name">Mobaily</a><a class="link_home" href="home.html">Home</a><a class="link_cart" href="cart.php">Cart</a></header>
+    <section class="content">
+       
+        <form method="POST"><div class="iphone"><img class="img" src="iphone 12.jpg" alt=""><h3>iphone 12 pro</h3><h3>429.900 KD</h3><input class="submit" type="submit" value="Add To Cart"></div></form>
+        <form method="POST"><div class="iphone2"><img class="img" src="huawei p14 pro.jpg" alt=""><h3>huawei p14 pro</h3><h3>250 KD</h3><input class="submit" type="submit" value="Add To Cart"></div></form>
+        <form method="POST"><div class="iphone"><img class="img" src="samsong s20.jpg" alt=""><h3>samsung s20</h3><h3>250 KD</h3><input class="submit" type="submit" value="Add To Cart"></div></form>
+     
+    </section>
+    <footer class="footer">made by Mohammed Basim&copy;</footer>
+</body>
+</html>
